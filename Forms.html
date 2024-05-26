@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title> Forms
+
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+   
+
+
+    <form>
+        <div>
+        <label for="isim">Ad:</label>
+        <input type="text" id="isim" name="isim" placeholder="Adınız..." required />
+            </div>
+
+        <br />
+        
+        <div>
+        <label for="soyisim">Soyad:</label>
+        <input type="text" id="soyisim" name="soyisim" placeholder="Soyadınız..." required />
+            </div>
+        <br />
+        <div>
+            <label for="şifre">Şifre:</label>
+            <input type="password" id="şifre" name="şifre" placeholder="*******" required maxlength="14" />
+        </div>
+        <br />
+        <div>
+            <label for="email">E-Posta:</label>
+            <input type="email" id="email" name="email" placeholder="asdasd@gmail.com" required />
+        </div>
+        <div>
+            <br />
+            <label for="telno">Telefon Numarası:</label>
+            <input type="tel" id="telno" name="telno" placeholder="0(555)-555-55-55" />
+        </div>
+        <br />
+        <div>
+            <label for="tarih">Doğum Tarihi:</label>
+            <input type="date" id="tarih" name="tarih" />
+        </div>
+        <br />
+        <div>
+            <label for="adet">Ürün Sayısı:</label>
+            <input type="number" id="adet" name="adet" min="1" value="1" max="99" />
+        </div>
+        <br />
+        <div>
+
+            <label>Unvan:</label>
+
+            <label for="mr.">Bay</label>
+            <input type="radio" name="Unvan" value="Bay" id="mr." />
+
+            <label for="mrs.">Bayan</label>
+            <input type="radio"/ name="Unvan" value="Bayan" id="mrs.">
+
+            <label for="prof.">Profesör</label>
+            <input type="radio" name="Unvan" value="Profesör" id="prof." />
+
+
+
+
+
+
+        </div>
+        <br />
+
+        <div>
+            <label for="ödeme">Ödeme Yöntemi Seçiniz:</label>
+            <select id="ödeme" name="ödeme">
+                    <option>Kredi/ Banka Kartı</option>
+                    <option>Kapıda Kredi Kartı</option>
+                    <option>Nakit</option>
+
+                    </select>
+
+
+        </div>
+        <br />
+
+        <div>
+            <label for="fatura">Fatura ister misiniz?</label>
+            <input type="checkbox" id="fatura" name="fatura" />
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+        <br />
+        <div>
+            <input type="reset" />
+            <input type="submit" />
+
+        </div>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
